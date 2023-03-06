@@ -1,3 +1,13 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+
+
+
 body{
     background-color: #708090;
 }
@@ -164,7 +174,18 @@ body{
     border-radius: 20px;
     border: 2px solid black;
 }
- 
+ .col1:hover{
+    box-shadow: 6px 7px 8px;
+ }
+ .col2:hover{
+    box-shadow: 6px 7px 8px;
+ }
+ .col3:hover{
+    box-shadow: 6px 7px 8px;
+ }
+ .col4:hover{
+    box-shadow: 6px 7px 8px;
+ }
 .vv{
     padding: 30px;
     display: flex;
