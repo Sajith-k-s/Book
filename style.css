@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 340px) {
   /* For mobile phones: */
   [class*="main"] {
     width: 100%;
